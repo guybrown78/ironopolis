@@ -5,12 +5,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Ironopolis</title>
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Amatic+SC">
+	<link rel="stylesheet" href="./style.css"/>
 </head>
 
 <body>
 
-	<section>
-		<article>
+	<section class="poem">
+		<!-- <article>
 			<header>
 				<h2>Ironopolis by Ian Horn</h2>
 				<p>The Town that Built the World</p>
@@ -25,9 +28,25 @@
                 Every metropolis
                 Came from
                 Ironopolis`</p>
+		</article> -->
+		<article class="ironopolis">
+			<h1>ironopolis</h1>
 		</article>
 	</section>
 
+	<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyAKoLRGuZQZ3nCJXA5_c0Tg9_eNjzNQ4k4",
+		authDomain: "ironopolis-d057a.firebaseapp.com",
+		databaseURL: "https://ironopolis-d057a.firebaseio.com",
+		projectId: "ironopolis-d057a",
+		storageBucket: "ironopolis-d057a.appspot.com",
+		messagingSenderId: "480730726032"
+	};
+	firebase.initializeApp(config);
+	</script>
 
 </body>
 
